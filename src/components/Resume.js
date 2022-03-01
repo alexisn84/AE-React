@@ -9,14 +9,17 @@ function Resume() {
                 <br />
 
                 <a
-                    className='button is-primary'
-                    href={process.env.PUBLIC_URL + '/ae-resume.pdf'}
-                    target="_blank" rel='noreferrer'
+                    className="button is-primary"
+                    href={process.env.PUBLIC_URL + "/ae-resume.pdf"}
+                    target="_blank" rel="noreferrer"
                     >
-                        <span className='icon'>
-                            <i className='fas fa-download'></i>
-                        </span>
+                    <span className="icon">
+                        <i className="fas fa-download"></i>
+                    </span>
+                    <span>Download My Resume</span>
                     </a>
+                    <br />
+                    <br/>
             </div>
             <div className='column'>
                 <p className='content is-medium'>Skills</p>
@@ -25,8 +28,7 @@ function Resume() {
                     <li>HTML, CSS, Javascript</li>
                     <li>REST API, MySQL, JSON</li>
                     <li>React, Mongoose</li>
-                    <li>Git</li>
-                    <li>Github Repo</li>
+                    <li>GitHub, Git Bash</li>
                 </ul>
             </div>
         </div>

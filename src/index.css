@@ -70,17 +70,29 @@ div.content {
     /* background-image: url(../public/img/intro-img.jpg);
     background-size: cover;
     background-position: center; */
-    position: relative;
+    /* position: relative;
     min-height: 200px;
     display: flex;
     justify-content: right;
-    flex-direction: row;
+    flex-direction: row; */
     color: #B6CCD3;
 }
 
 /*Start Resume 
 =================================*/
+a.button {
+    text-decoration: none;
+    font-size: large;
+}
 
+/*Start Resume 
+=================================*/
+
+footer.footer {
+    background-image: url(../public/img/intro-img.jpg);
+    text-decoration: none;
+    text-align: center;
+}
 
 /*Start screen size 
 =================================*/
