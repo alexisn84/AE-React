@@ -2,7 +2,7 @@ import React, { useState} from 'react';
 
 import Nav from "./Nav";
 import About from "./About";
-// import Contact from "./Contact";
+import Contact from "./Contact";
 // import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 
@@ -18,8 +18,8 @@ function Header () {
                 return <Resume />;
             // case "Portfolio" :
             //     return <Portfolio />;
-            // case "Contact":
-            //     return <Contact />
+            case "Contact":
+                return <Contact />
 
             default: return <About />;
         }

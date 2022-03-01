@@ -66,6 +66,10 @@ main {
     width: 250px;
 }
 
+.label {
+    text-align: left;
+}
+
 div.content {
     /* background-image: url(../public/img/intro-img.jpg);
     background-size: cover;
