@@ -2,9 +2,9 @@ import React, { useState} from 'react';
 
 import Nav from "./Nav";
 import About from "./About";
-import Contact from "./Contact";
-import Portfolio from "./Portfolio";
-import Resume from "./Resume";
+// import Contact from "./Contact";
+// import Portfolio from "./Portfolio";
+// import Resume from "./Resume";
 
 function Header () {
     const [currentPage, handlePageChange] = useState("About");
@@ -14,12 +14,12 @@ function Header () {
         switch(currentPage) {
             case "About":
                 return <About />;
-            case "Resume":
-                return <Resume />;
-            case "Portfolio" :
-                return <Portfolio />;
-            case "Contact":
-                return <Contact />
+            // case "Resume":
+            //     return <Resume />;
+            // case "Portfolio" :
+            //     return <Portfolio />;
+            // case "Contact":
+            //     return <Contact />
 
             default: return <About />;
         }
@@ -40,6 +40,7 @@ function Header () {
             </nav>
 
             {/* pass the state and setter as props to Navigation */}
+            
             <Nav 
                 currentPage={currentPage}
                 handlePageChange={handlePageChange}

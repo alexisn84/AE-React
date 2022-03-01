@@ -4,7 +4,7 @@ function Nav (props) {
     const links =["About", "Resume", "Portfolio", "Contact"];
 
     return (
-        <div className='links is-centered'>
+        <div className='links'>
             <ul className='nav nav-links'>
                 {links.map((link) => (
                     <li

@@ -1,0 +1,72 @@
+/* Design Styles
+canva.com
+Colors
+French Gray #B8B6BC
+Jungle Mist #B6CCD3
+Teal Blue #044664
+Mosque #04546A
+==============================================*/
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lora', serif;
+    color: #B6CCD3;
+    background-color: #044664;
+}
+
+/*Start styles to Nav bar (use Header.js classNames)
+=================================*/
+.nav {
+    background-image: url(../public/img/88-882598_web-design-blue-web-design-background-pattern.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    display: block;
+    width: 100%;
+    /* text-decoration: none;      */
+}
+
+div.nav-bar{
+    margin-bottom: 2em;
+    padding-top: 2em;
+    display: inline-block;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #B6CCD3;
+    font-weight:bolder;
+    font-size: larger;
+}
+
+div.links {
+    text-decoration: none;
+    color: #B6CCD3;    
+}
+
+/*Start styles to About bar (use About.js classNames)
+=================================*/
+div.content {
+    /* background-image: url(../public/img/intro-img.jpg);
+    background-size: cover;
+    background-position: center; */
+    position: relative;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    
+    color: #B6CCD3;
+}
+
+p.content {
+    width: 50%;
+    margin-top: 5%;
+    justify-content: right;
+    align-items: center;
+    flex-direction: column;
+}
