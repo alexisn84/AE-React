@@ -1,6 +1,6 @@
 import React, { useState} from 'react';
 
-import Navigation from "./Navigation";
+import Nav from "./Nav";
 import About from "./About";
 import Contact from "./Contact";
 import Portfolio from "./Portfolio";
@@ -29,10 +29,27 @@ function Header () {
     return (
         <div>
             <nav className='nav'>
-                
+                <div className='nav-bar'>
+                    <a className='nav-item'
+                        target="_blank"
+                        href='https://github.com/alexisn84'>
+
+                        <span className='name is-large'>Alexis El Amrani</span>
+                    </a>
+                </div>
             </nav>
+
+            {/* pass the state and setter as props to Navigation */}
+            <Nav 
+                currentPage={currentPage}
+                handlePageChange={handlePageChange}
+            />
+            {/* call the function to pass to the currentPage */}
+            <main>
+                <div>{renderPage(currentPage)}</div>
+            </main>
         </div>
-    )
+    );
 }
 
 export default Header;
