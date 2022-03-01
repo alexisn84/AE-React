@@ -17,6 +17,7 @@ body {
     font-family: 'Lora', serif;
     color: #B6CCD3;
     background-color: #044664;
+    text-align: center;
 }
 
 /*Start styles to Nav bar (use Header.js classNames)
@@ -49,8 +50,22 @@ div.links {
     color: #B6CCD3;    
 }
 
+/* Main body */
+main {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    margin-left: 30em;
+    margin-right: 30em;
+}
+
+
 /*Start styles to About bar (use About.js classNames)
 =================================*/
+.my-pic {
+	clip-path: circle();
+    width: 250px;
+}
+
 div.content {
     /* background-image: url(../public/img/intro-img.jpg);
     background-size: cover;
@@ -58,15 +73,22 @@ div.content {
     position: relative;
     min-height: 200px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: right;
+    flex-direction: row;
     color: #B6CCD3;
 }
 
-p.content {
-    width: 50%;
-    margin-top: 5%;
-    justify-content: right;
-    align-items: center;
-    flex-direction: column;
+/*Start Resume 
+=================================*/
+
+
+/*Start screen size 
+=================================*/
+@media only screen and (max-width: 1024px) {
+    main {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
 }
