@@ -3,7 +3,7 @@ import React, { useState} from 'react';
 import Nav from "./Nav";
 import About from "./About";
 import Contact from "./Contact";
-// import Portfolio from "./Portfolio";
+import Portfolio from "./Portfolio";
 import Resume from "./Resume";
 
 function Header () {
@@ -16,8 +16,8 @@ function Header () {
                 return <About />;
             case "Resume":
                 return <Resume />;
-            // case "Portfolio" :
-            //     return <Portfolio />;
+            case "Portfolio" :
+                return <Portfolio />;
             case "Contact":
                 return <Contact />
 
