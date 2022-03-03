@@ -50,6 +50,7 @@ function Project(props) {
                         >
                             Visit Live Application!
                         </a>
+                        <br />
                         </footer>
                     </div>
                     </div>

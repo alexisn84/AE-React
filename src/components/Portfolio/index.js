@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './Project';
+import Project from '../Pro2';
 
 //build const to hold info for each card
 const projects = [
