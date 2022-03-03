@@ -28,7 +28,7 @@ function Header () {
     //return statement that flows info into their respective containers
     return (
         <div>
-            <nav className='nav'>
+            <nav className='navi'>
                 <div className='nav-bar'>
                     <a className='nav-item'
                         target="_blank"
@@ -36,15 +36,16 @@ function Header () {
 
                         <span className='name is-large'>Alexis El Amrani</span>
                     </a>
+                    {/* pass the state and setter as props to Navigation */}
+            
+                    <Nav 
+                        currentPage={currentPage}
+                        handlePageChange={handlePageChange}
+                    />
                 </div>
             </nav>
 
-            {/* pass the state and setter as props to Navigation */}
             
-            <Nav 
-                currentPage={currentPage}
-                handlePageChange={handlePageChange}
-            />
             {/* call the function to pass to the currentPage */}
             <main>
                 <div>{renderPage(currentPage)}</div>

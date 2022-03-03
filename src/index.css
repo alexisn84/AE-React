@@ -22,20 +22,17 @@ body {
 
 /*Start styles to Nav bar (use Header.js classNames)
 =================================*/
-.nav {
+.navi {
     background-image: url(../public/img/88-882598_web-design-blue-web-design-background-pattern.jpg);
     background-size: cover;
     background-position: center;
-    text-align: center;
-    display: block;
+    justify-content: space-between;
+    /* display: flex;
+    position: relative;
+    flex-wrap: wrap;
+    align-items: center; */
     width: 100%;
     /* text-decoration: none;      */
-}
-
-div.nav-bar{
-    margin-bottom: 2em;
-    padding-top: 2em;
-    display: inline-block;
 }
 
 .nav-item {
@@ -43,11 +40,12 @@ div.nav-bar{
     color: #B6CCD3;
     font-weight:bolder;
     font-size: larger;
+    font-style: italic;
 }
 
-div.links {
+a.nav-link {
     text-decoration: none;
-    color: #B6CCD3;    
+    color: #B6CCD3;
 }
 
 /* Main body */
@@ -61,41 +59,64 @@ main {
 
 /*Start styles to About bar (use About.js classNames)
 =================================*/
-.my-pic, .image {
+.my-pic {
 	clip-path: circle();
     width: 250px;
+}
+
+/*Start styles for Portfolio/Project files
+=================================*/
+.port-title {
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+strong {
+    font-style: italic;
+    font-size: larger;
+}
+.card-footer-item {
+    text-decoration: none;
+    color: #B6CCD3;
+}
+/* .pro-image {
+    
+}  */
+
+.media {
+    font-size: larger;
+    font-style: italic;
 }
 
 .label {
     text-align: left;
 }
 
-div.content {
-    /* background-image: url(../public/img/intro-img.jpg);
-    background-size: cover;
-    background-position: center; */
-    /* position: relative;
-    min-height: 200px;
-    display: flex;
-    justify-content: right;
-    flex-direction: row; */
-    color: #B6CCD3;
-}
 
-/*Start Resume 
+/*Start Resume / Skills
 =================================*/
 a.button {
     text-decoration: none;
-    font-size: large;
+    font-size: medium;
+    color: #B6CCD3;
 }
 
-/*Start Resume 
+p.content-skill {
+    font-size: larger;
+}
+
+/*Start Footer
 =================================*/
 
 footer.footer {
     background-image: url(../public/img/intro-img.jpg);
     text-decoration: none;
-    text-align: center;
+    /* text-align: center; */
+}
+
+.git {
+    text-decoration: none;
 }
 
 /*Start screen size 

@@ -16,7 +16,7 @@ const projects = [
     {
         id: 1,
         title: "Pricemart",
-        image: "/img/PriceMart Logo.png",
+        image: "/img/price.jpg",
         languages: "HTML, CSS-Bulma, JavaScript, JQuery and 2 external API servers",
         packages: "",
         description:"A web browser application that compares pricing for items at local retailers, as well as shows the distance from the user to the store so that the user can take into consideration time and travel costs. User can then build shopping lists for each retailer and print or email lists for use at while shopping.",
@@ -29,8 +29,10 @@ function Portfolio () {
 
     return (
         <div>
-            <p className='content is-medium'>Portfolio</p>
+            <p className='port-title'>Portfolio</p>
             <hr />
+            <br />
+            <br />
 
             <Project projects={projects} />
         </div>

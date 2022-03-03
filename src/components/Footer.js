@@ -6,15 +6,15 @@ function Footer() {
 
         <footer className="footer">
             <div className="content">
-                <p>
+                <p >
                 <strong>My Full Stack Developer Portfolio</strong> 
-                <a href="https://github.com/alexisn84" target="_blank" rel="noreferrer">
+                <a className="git" href="https://github.com/alexisn84" target="_blank" rel="noreferrer">
                     {''}{''} Alexis El Amrani
                 </a>
                 .
                 <br />
             
-                <a
+                <a className="git"
                     href="https://www.linkedin.com/in/alexis-el-amrani-36b34729"
                     target="_blank" rel="noreferrer"
                 >

@@ -5,8 +5,8 @@ function Resume() {
     return (
         <div className='columns'>
             <div className='column'>
-                <p className='content is-medium'>Resume</p>
-                <br />
+                <p className='content-skill is-large'>Resume</p>
+                <hr />
 
                 <a
                     className="button is-primary"
@@ -16,13 +16,14 @@ function Resume() {
                     <span className="icon">
                         <i className="fas fa-download"></i>
                     </span>
-                    <span>Download My Resume</span>
+                    <span>Click to View Resume</span>
                     </a>
                     <br />
                     <br/>
             </div>
             <div className='column'>
-                <p className='content is-medium'>Skills</p>
+                <p className='content-skill '>Skills</p>
+                <hr />
                 <br />
                 <ul>
                     <li>HTML, CSS, Javascript</li>

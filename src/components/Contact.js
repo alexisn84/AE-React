@@ -36,19 +36,19 @@ function Contact() {
 
     return (
         <div>
-            <p className='content is-medium'>Contact Me</p>
+            <p className='content is-medium'><strong>Contact Me</strong></p>
             <br/>
             <form id="contact-form" onSubmit={handleSubmit}>
                 <div className='field'>
-                    <label className='label' htmlFor="name">Name</label>
+                    <label className='label' htmlFor="name">Name: </label>
                     <input className='input' type="text" name='name' defaultValue={name} onBlur={handleChange} />
                 </div>
                 <div className='field'>
-                    <label className='label' htmlFor='email'>Email</label>
+                    <label className='label' htmlFor='email'>Email: </label>
                     <input className='input' type="email" name="email" defaultValue={email} onBlur={handleChange} />
                 </div>
                 <div className='field'>
-                    <label className='label' htmlFor="message">Message</label>
+                    <label className='label' htmlFor="message">Message: </label>
                     <input className="textarea" name="message" rows="4" defaultValue={message} onBlur={handleChange} />
                 </div>
                 {errorMessage && (

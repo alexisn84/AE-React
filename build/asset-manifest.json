@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.acbcf50c.css",
-    "main.js": "/static/js/main.201dbf9f.js",
+    "main.css": "/static/css/main.9d1b81d6.css",
+    "main.js": "/static/js/main.d7de4e75.js",
     "static/js/787.73394f8d.chunk.js": "/static/js/787.73394f8d.chunk.js",
     "static/media/88-882598_web-design-blue-web-design-background-pattern.jpg": "/static/media/88-882598_web-design-blue-web-design-background-pattern.d6d4b904e4fe978339bc.jpg",
     "static/media/intro-img.jpg": "/static/media/intro-img.209d4cc39e13ce1e05d2.jpg",
     "index.html": "/index.html",
-    "main.acbcf50c.css.map": "/static/css/main.acbcf50c.css.map",
-    "main.201dbf9f.js.map": "/static/js/main.201dbf9f.js.map",
+    "main.9d1b81d6.css.map": "/static/css/main.9d1b81d6.css.map",
+    "main.d7de4e75.js.map": "/static/js/main.d7de4e75.js.map",
     "787.73394f8d.chunk.js.map": "/static/js/787.73394f8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.acbcf50c.css",
-    "static/js/main.201dbf9f.js"
+    "static/css/main.9d1b81d6.css",
+    "static/js/main.d7de4e75.js"
   ]
 }
