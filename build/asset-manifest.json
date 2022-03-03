@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.9d1b81d6.css",
-    "main.js": "/static/js/main.d7de4e75.js",
-    "static/js/787.73394f8d.chunk.js": "/static/js/787.73394f8d.chunk.js",
-    "static/media/88-882598_web-design-blue-web-design-background-pattern.jpg": "/static/media/88-882598_web-design-blue-web-design-background-pattern.d6d4b904e4fe978339bc.jpg",
-    "static/media/intro-img.jpg": "/static/media/intro-img.209d4cc39e13ce1e05d2.jpg",
-    "index.html": "/index.html",
-    "main.9d1b81d6.css.map": "/static/css/main.9d1b81d6.css.map",
-    "main.d7de4e75.js.map": "/static/js/main.d7de4e75.js.map",
-    "787.73394f8d.chunk.js.map": "/static/js/787.73394f8d.chunk.js.map"
+    "main.css": "/AE-React/static/css/main.491a769d.css",
+    "main.js": "/AE-React/static/js/main.02c87e95.js",
+    "static/js/787.73394f8d.chunk.js": "/AE-React/static/js/787.73394f8d.chunk.js",
+    "static/media/88-882598_web-design-blue-web-design-background-pattern.jpg": "/AE-React/static/media/88-882598_web-design-blue-web-design-background-pattern.d6d4b904e4fe978339bc.jpg",
+    "static/media/intro-img.jpg": "/AE-React/static/media/intro-img.209d4cc39e13ce1e05d2.jpg",
+    "index.html": "/AE-React/index.html",
+    "main.491a769d.css.map": "/AE-React/static/css/main.491a769d.css.map",
+    "main.02c87e95.js.map": "/AE-React/static/js/main.02c87e95.js.map",
+    "787.73394f8d.chunk.js.map": "/AE-React/static/js/787.73394f8d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d1b81d6.css",
-    "static/js/main.d7de4e75.js"
+    "static/css/main.491a769d.css",
+    "static/js/main.02c87e95.js"
   ]
 }
