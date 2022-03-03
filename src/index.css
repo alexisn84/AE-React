@@ -61,7 +61,7 @@ main {
 
 /*Start styles to About bar (use About.js classNames)
 =================================*/
-.my-pic {
+.my-pic, .image {
 	clip-path: circle();
     width: 250px;
 }
